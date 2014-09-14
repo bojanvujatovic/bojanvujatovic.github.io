@@ -381,7 +381,7 @@ footer a:hover {
 }
 
 #main_menu{
-  margin-top: 189px;
+  margin-top: 0px;
 }
 #main_menu h2{
   color: #d5000d;
@@ -401,4 +401,14 @@ footer a:hover {
 #main_menu h2.active{
     color: #c5000c;
     font-weight: bold;
+}
+
+#main_image{
+    display: block;
+    width: auto;
+    height: 134px;
+    margin-right: auto;
+    margin-left:  auto;
+    margin-top: 31px;
+    margin-bottom: 30px;
 }
