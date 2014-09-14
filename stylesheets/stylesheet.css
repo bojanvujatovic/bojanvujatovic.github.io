@@ -86,12 +86,15 @@ header h2 {
 
 #container {
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-  min-height: 595px;
+  margin: 0 auto;
+  min-height: 800px;
+  width: 920px;
 }
 
 .inner {
   width: 620px;
-  margin: 0 auto;
+  min-height: 800px;
+  float: left;
 }
 
 #container .inner img {
@@ -369,3 +372,18 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+/* #Moji dodani
+================================================== */
+.left{
+  float: left;
+  width: 200px;
+}
+
+#main_menu{
+  margin-top: 189px;
+}
+
+#main_menu li{
+  list-style: none;
+}
