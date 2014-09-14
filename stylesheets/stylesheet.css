@@ -256,7 +256,7 @@ h2 {
 
 h3 {
   color: #d5000d;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
 } 
@@ -383,7 +383,22 @@ footer a:hover {
 #main_menu{
   margin-top: 189px;
 }
+#main_menu h2{
+  color: #d5000d;
+  font-size: 24px;
+  font-weight: normal;
+}
 
 #main_menu li{
   list-style: none;
+}
+
+#main_menu h2:hover{
+    color: #c5000c;
+    font-weight: bold;
+}
+
+#main_menu h2.active{
+    color: #c5000c;
+    font-weight: bold;
 }
