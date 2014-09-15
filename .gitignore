@@ -1,2 +1,5 @@
 _site/
-_config.yml
+# za _config.yml sam sljedecu naredbu:
+# git update-index --assume-unchanged _config.yml
+# za vratiti:
+# git update-index --no-assume-unchanged _config.yml
