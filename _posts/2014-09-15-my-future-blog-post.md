@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog_layout
 title: My Future Blog Post
 marked_menu_item: Blog
 ---

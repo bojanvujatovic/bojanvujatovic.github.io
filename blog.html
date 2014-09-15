@@ -9,11 +9,3 @@ marked_menu_item: Blog
       {{ post.content | strip_html | truncatewords:75}}
        <a href="{{ post.url }}">Read more</a><br><br>
   {% endfor %}
-        
-        
-        <!--
-{% for post in site.posts limit 4 %}
-    <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><br>
-        {{ post.content | strip_html | truncatewords:75}}<br>
-            <a href="{{ post.url }}">Read more...</a><br><br>
-    {% endfor %} -->

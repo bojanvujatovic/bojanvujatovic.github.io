@@ -1,4 +1,4 @@
-highlighter: pygments
+﻿highlighter: rouge
 encoding: utf-8
 paginate: 2
 paginate_path: "page:num"
